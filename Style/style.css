@@ -1,0 +1,85 @@
+/* Estilos globales */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+	background-color: #EE1C24;
+	color: #FFF;
+	padding: 20px;
+	text-align: center;
+}
+img{
+	width: 300px;
+	height: 300px;
+}
+div{
+	width: 500px;
+	height: 500px;
+}
+
+.pokeball {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  box-shadow: 0 0 0 10px white, 0 0 0 15px black;
+}
+
+.pokeball::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  background: white;
+}
+
+.pokeball__top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: white;
+  border-radius: 50% 50% 0 0;
+}
+
+.pokeball__bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: black;
+  border-radius: 0 0 50% 50%;
+}
+
+.pokeball__middle {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 10%;
+  background: red;
+}
+
+.pokeball__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: black;
+}
