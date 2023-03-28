@@ -10,7 +10,7 @@
 
 ###
 
-🔭 Actualmente estoy trabajando en el proyecto [Pokedex.](https://github.com/Cristian0813/Pokedex)
+🔭 Actualmente estoy trabajando en el proyecto [Pokedex.](https://cristian0813.github.io/Pokedex/)
 
 
 ###
