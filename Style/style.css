@@ -7,6 +7,13 @@ body {
   background: url("../Image/FireRedAndLeafGreen.jpg")no-repeat center center fixed;
   background-size: cover;
 }
+/* ESTILO DEL FOOTER */
+.pie_pagina a, h5{
+  text-align:right;
+  padding: 2rem;
+  color: white;
+  text-decoration: none;
+}
 /* ESTILO DEL MAIN */
 .content-pokedex{
   display: flex;

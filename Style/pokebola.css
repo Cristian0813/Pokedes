@@ -10,6 +10,13 @@ body {
   background-color: black;
   font-size: 16px; /*se agrego */
 }
+/* ESTILO DEL FOOTER */
+.pie_pagina a, h5{
+  text-align:right;
+  padding: 2rem;
+  color: white;
+  text-decoration: none;
+}
 /* ESTILO PARA EL TEXTO CONTAINER */
 .text-container {
   height: 80vh;
