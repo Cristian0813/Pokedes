@@ -1,4 +1,4 @@
-const pokedexinformacion = [
+const PokedexInformacion = [
   {
     "abilities": [
       "Overgrow"

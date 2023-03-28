@@ -1,6 +1,6 @@
 {
   "name": "pokedes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Se crea web de pokédes usando html, css, bootstrap, nodejs, javascript",
   "main": "script.js",
   "scripts": {
