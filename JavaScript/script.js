@@ -16,7 +16,7 @@ function busquedaFuncion(valor) {
 const form = document.querySelector('form');
 form.addEventListener('submit', busquedapokemon);
 function busquedapokemon(evento) {
-  document.querySelector(".content-pokedex").style.display="block";
+  // document.querySelector(".content-pokedex").style.display="block";
   evento.preventDefault(); // previene que el formulario se envíe
   const input = document.querySelector('#buscarpokemon');
   const valor = input.value.toLowerCase(); // convierte a minúsculas para comparar
