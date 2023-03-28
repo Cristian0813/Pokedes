@@ -1,3 +1,3 @@
 function Pokemon_pokedex(){
-    window.location.href = "../index.html";
+    window.location.href = "../pokedex.html";
   }
