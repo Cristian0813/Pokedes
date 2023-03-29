@@ -1,4 +1,4 @@
-<h1 align="left">Hola 👋, soy Cristian Arias</h1>
+<h1 align="center">Hola 👋, soy Cristian Arias</h1>
 
 ###
 
@@ -10,7 +10,7 @@
 
 ###
 
-🔭 Actualmente estoy trabajando en el proyecto [Pokedex.](https://github.com/Cristian0813/Pokedes)
+🔭 Actualmente estoy trabajando en el proyecto [Pokedex.](https://cristian0813.github.io/Pokedex/)
 
 
 ###
