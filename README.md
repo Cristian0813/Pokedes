@@ -10,7 +10,7 @@
 
 ###
 
-🔭 Actualmente estoy trabajando para la mejora del proyecto [Pokedex.](https://cristian0813.github.io/Pokedex/)
+🔭 Actualmente estoy trabajando para la mejora, se actualizo para ver las card del proyecto [Pokedex.](https://cristian0813.github.io/Pokedex/)
 
 
 ###
@@ -44,13 +44,13 @@
 
 <div align="left">
   <a href="https://www.linkedin.com/in/cristian-j-arias-o/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="44" height="30" alt="linkedin logo"  />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="44" height="30" alt="linkedin logo"/>
   </a>
   <a href="https://www.facebook.com/Cris9013/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="44" height="30" alt="facebook logo"  />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="44" height="30" alt="facebook logo"/>
   </a>
   <a href="javier.0813@hotmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/microsoft-outlook/default.svg" width="44" height="30" alt="microsoft-outlook logo"  />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/microsoft-outlook/default.svg" width="44" height="30" alt="microsoft-outlook logo"/>
   </a>
 </div>
 
