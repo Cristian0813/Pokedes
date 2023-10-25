@@ -587,6 +587,15 @@ footer {
   font-weight: bold;
   text-align: center;
 }
+.tipo-verde {
+  color: green;
+}
+
+.tipo-azul {
+  color: blue;
+}
+
+
 /* ADAPTABILIDAD PARA VARIAS PANTALLAS */
 /* ESTILO PARA PANTALLAS PEQUEÑAS  */
 @media only screen and (max-width: 767px) {

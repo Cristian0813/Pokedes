@@ -21,7 +21,7 @@ const PokedexInformacion = [
     "ThumbnailImage": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
     "id": 1,
     "type": [
-      "grass",
+      "grass", 
       "poison"
     ]
   },

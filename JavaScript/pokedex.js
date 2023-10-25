@@ -9,7 +9,7 @@ function generarArregloFuncion() {
   return array;
 }
 // FUNCION DEL BOTON ATRAS
-const botonAtras = document.getElementById("boton-atras");
+/* const botonAtras = document.getElementById("boton-atras");
   botonAtras.addEventListener("click", () => {
   window.scrollTo(0, 0);
   document.querySelector(".content-pokedex").style.display = "none";
@@ -20,7 +20,7 @@ BotonAtras.addEventListener("click", () => {
   window.scrollTo(0, 0);
   document.querySelector(".content-pokedex").style.display = "none";
   document.querySelector(".seccion-card").style.display = "block";
-});
+}); */
 // FUNCIÓN PARA BUSCAR EL POKEMON POR NOMBRE Y/O NÚMERO, ARREGLO PARA LA FUNCIÓN
 const arrFuncion = generarArregloFuncion();
 function busquedaFuncion(valor) {
@@ -112,6 +112,7 @@ window.onload = llenarOpciones;
 // FUNCION PARA MOSTRAR LOS POKEMONES EN TARJETAS Y QUE NO SE REPITAN
 const listaPokemones = document.getElementById("lista-pokemones");
 const nombresPokemonesMostrados = {};
+
 for (let i = 0; i < PokedexInformacion.length; i++) {
   const pokemon = PokedexInformacion[i];
   const nombrePokemon = pokemon.name;
@@ -119,17 +120,43 @@ for (let i = 0; i < PokedexInformacion.length; i++) {
     continue;
   }
   nombresPokemonesMostrados[nombrePokemon] = true;
-  
+
   const div = document.createElement("div");
   div.addEventListener("click", event => {
     const nombrePokemon = event.currentTarget.querySelector(".pokemon-nombre").textContent.toLowerCase();
     busquedapokemon(event, nombrePokemon);
   });
+
   div.classList.add("pokemon-card");
+
+  const tiposContainer = document.createElement("div");
+  tiposContainer.classList.add("tipos-container");
+
+  // Itera a través de los tipos del Pokémon y agrega clases de estilo
+  if (Array.isArray(pokemon.type)) {
+    pokemon.type.forEach((tipo, index) => {
+      const tipoElement = document.createElement("p");
+      tipoElement.textContent = `Tipo: ${tipo}`;
+      tipoElement.classList.add(index === 0 ? 'tipo-verde' : 'tipo-azul');
+      tiposContainer.appendChild(tipoElement);
+    });
+  } else {
+    const tipoElement = document.createElement("p");
+    tipoElement.textContent = `Tipo: ${pokemon.type}`;
+    tipoElement.classList.add('tipo-verde'); // Si solo hay un tipo, asigna el estilo verde
+    tiposContainer.appendChild(tipoElement);
+  }
+
   div.innerHTML = `
-    <p class="pokemon-numero"> ${pokemon.number}</p>
-    <img class="pokemon-imagen" src="${pokemon.ThumbnailImage}" alt="${nombrePokemon}">
-    <p class="pokemon-nombre">${nombrePokemon}</p>
+    <div>
+      <div>
+        <h5 class="pokemon-nombre">${nombrePokemon}</h5>
+        <img class="pokemon-imagen" src="${pokemon.ThumbnailImage}" alt="${nombrePokemon}">
+        <p>N°. ${pokemon.number}</p>
+        ${tiposContainer.outerHTML}
+      </div>
+    </div>
   `;
   listaPokemones.appendChild(div);
 }
+
