@@ -10,7 +10,7 @@
 
 ###
 
-<!-- 🔭 Actualmente estoy trabajando para la mejora, se actualizo para ver las card del proyecto [Pokedex.](https://cristian0813.github.io/Pokedex/) -->
+🔭 Actualmente estoy trabajando para la mejora, se actualizo para ver las card del proyecto [Pokedex.](https://cristian0813.github.io/Pokedex/)
 
 
 ###
